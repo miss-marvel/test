@@ -14,18 +14,7 @@ pipeline {
                 echo "Building block"
             }
         }
-        stage('Test') {
-            steps {
-                echo "Test Block"
-            }
-        }
         
-        stage('Deploy'){
-            steps {
-                
-            echo "Deploy Block"
-            }
-        }
         
     }
 }
